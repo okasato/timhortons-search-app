@@ -5,6 +5,9 @@ export default class App extends Component {
     super(props)
   }
 
+  componentDidMount() {
+  }
+
   render() {
     return (
       <div className='app'>
