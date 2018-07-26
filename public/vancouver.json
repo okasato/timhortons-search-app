@@ -1,0 +1,564 @@
+{
+  "locations": [
+    {
+      "closeTime": "Restaurant Open Until 8:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "1st Floor",
+      "id": 0,
+      "name": "TIM HORTONS WEST 49TH ST",
+      "phone": "(604) 323-5295",
+      "postalCode": "Vancouver, BC V5Y 2Z6",
+      "street": "100 West 49th St"
+    },
+    {
+      "closeTime": "Restaurant Open 24 Hours",
+      "driveThruCloseTime": "",
+      "floo": "",
+      "id": 1,
+      "name": "TIM HORTONS DENMAN ST",
+      "phone": "(604) 559-8467",
+      "postalCode": "Vancouver, BC V6G 2M4",
+      "street": "1001 Denman St"
+    },
+    {
+      "closeTime": "Restaurant Open 24 Hours",
+      "driveThruCloseTime": "",
+      "floor": "Unit 118",
+      "id": 2,
+      "name": "TIM HORTONS GEORGIA ST W",
+      "phone": "(604) 687-0348",
+      "postalCode": "Vancouver, BC V6E 3P3",
+      "street": "1055 Georgia St W"
+    },
+    {
+      "closeTime": "Restaurant Open Until 6:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "3rd Concourse Level - Unit 2468",
+      "id": 3,
+      "name": "TIM HORTONS WEST GEORGIA ST",
+      "phone": "(604) 669-0348",
+      "postalCode": "Vancouver, BC V6E 3P1",
+      "street": "1055 West Georgia St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 5:30 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 4,
+      "name": "TIM HORTONS BURRARD ST",
+      "phone": "(604) 696-9176",
+      "postalCode": "Vancouver, BC V6C 3A8",
+      "street": "107-505 Burrard St"
+    },
+    {
+      "closeTime": "Restaurant Open 24 Hours",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 5,
+      "name": "TIM HORTONS WEST PENDER",
+      "phone": "(604) 568-9262",
+      "postalCode": "Vancouver, BC V6B 0K4",
+      "street": "108 West Pender"
+    },
+    {
+      "closeTime": "Restaurant Open Until 5:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 6,
+      "name": "TIM HORTONS WEST PENDER ST",
+      "phone": "(604) 764-7628",
+      "postalCode": "Vancouver, BC V6E 4A4",
+      "street": "1130 West Pender St"
+    },
+    {
+      "closeTime": "Restaurant Open 24 Hours",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 7,
+      "name": "TIM HORTONS ALBERNI ST",
+      "phone": "(604) 609-0348",
+      "postalCode": "Vancouver, BC V6E 4R6",
+      "street": "1150 Alberni St"
+    },
+    {
+      "closeTime": "Restaurant Open 24 Hours",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 8,
+      "name": "TIM HORTONS BURRARD ST",
+      "phone": "(604) 331-8769",
+      "postalCode": "Vancouver, BC V6Z 1Z5",
+      "street": "1205 Burrard St"
+    },
+    {
+      "closeTime": "Restaurant Open 24 Hours",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 9,
+      "name": "TIM HORTONS ROBSON ST",
+      "phone": "(604) 681-2000",
+      "postalCode": "Vancouver, BC V6E 1C2",
+      "street": "1299 Robson St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 10,
+      "name": "TIM HORTONS WEST BROADWAY",
+      "phone": "(604) 739-7677",
+      "postalCode": "Vancouver, BC V6H 1H2",
+      "street": "1398 West Broadway"
+    },
+    {
+      "closeTime": "Restaurant Open 24 Hours",
+      "driveThruCloseTime": "",
+      "floor": "Unit 101",
+      "id": 11,
+      "name": "TIM HORTONS WEST BROADWAY",
+      "phone": "(604) 737-7714",
+      "postalCode": "Vancouver, BC V6J 1W6",
+      "street": "1595 West Broadway"
+    },
+    {
+      "closeTime": "Restaurant Open Until Midnight",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 12,
+      "name": "TIM HORTONS COMMERCIAL DR",
+      "phone": "(604) 677-6413",
+      "postalCode": "Vancouver, BC V5L 3Y3",
+      "street": "1635 Commercial Dr"
+    },
+    {
+      "closeTime": "Restaurant Open Until 9:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 13,
+      "name": "TIM HORTONS DAVIE ST",
+      "phone": "(604) 685-8552",
+      "postalCode": "Vancouver, BC V6G 1W2",
+      "street": "1752 Davie St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 14,
+      "name": "TIM HORTONS WEST 4TH AVE W",
+      "phone": "(604) 730-7889",
+      "postalCode": "Vancouver, BC V6J 1M1",
+      "street": "1790 West 4th Ave W"
+    },
+    {
+      "closeTime": "Restaurant Open Until 2:00 AM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 15,
+      "name": "TIM HORTONS TERMINAL AVE",
+      "phone": "(604) 806-5256",
+      "postalCode": "Vancouver, BC V6A 4C4",
+      "street": "195 Terminal Ave"
+    },
+    {
+      "closeTime": "Restaurant Open Until 10:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 16,
+      "name": "TIM HORTONS BURRARD ST",
+      "phone": "(604) 692-0348",
+      "postalCode": "Vancouver, BC V6C 3L6",
+      "street": "200 Burrard St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 17,
+      "name": "TIM HORTONS KINGSWAY",
+      "phone": "(604) 877-1958",
+      "postalCode": "Vancouver, BC V5N 2T2",
+      "street": "2001 Kingsway"
+    },
+    {
+      "closeTime": "Restaurant Open Until 10:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 18,
+      "name": "TIM HORTONS MAIN MALL-UBC FOODSRVC-TREK EXP",
+      "phone": "(604) 822-3256",
+      "postalCode": "Vancouver, BC V6T 1Z2",
+      "street": "2033 Main Mall-ubc Foodsrvc-trek Exp"
+    },
+    {
+      "closeTime": "Restaurant Open Until Midnight",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 19,
+      "name": "TIM HORTONS 206 KEEFER ST",
+      "phone": "(604) 631-3955",
+      "postalCode": "Vancouver, BC V6A 1X6",
+      "street": "206 Keefer St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 20,
+      "name": "TIM HORTONS 41ST AVE W",
+      "phone": "(604) 264-8333",
+      "postalCode": "Vancouver, BC V6M 2A3",
+      "street": "2225 41st Ave W"
+    },
+    {
+      "closeTime": "Restaurant Open Until 8:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 21,
+      "name": "TIM HORTONS MAIN HALL",
+      "phone": "(604) 822-1953",
+      "postalCode": "Vancouver, BC V6T 1Z2",
+      "street": "2424 Main Hall"
+    },
+    {
+      "closeTime": "Restaurant Open Until 2:00 AM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 22,
+      "name": "TIM HORTONS MAIN ST",
+      "phone": "(604) 877-7767",
+      "postalCode": "Vancouver, BC V5T 3E5",
+      "street": "2501 Main St"
+    },
+    {
+      "closeTime": "Restaurant Open 24 Hours",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 23,
+      "name": "TIM HORTONS EAST 12TH AVE",
+      "phone": "(604) 620-5044",
+      "postalCode": "Vancouver, BC V5M 4T5",
+      "street": "2899 East 12th Ave"
+    },
+    {
+      "closeTime": "Restaurant Open 24 Hours",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 24,
+      "name": "TIM HORTONS TERMINAL AVE",
+      "phone": "(604) 681-5488",
+      "postalCode": "Vancouver, BC V6A 3W9",
+      "street": "306 Terminal Ave"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 25,
+      "name": "TIM HORTONS WEST BROADWAY ST",
+      "phone": "(604) 730-9700",
+      "postalCode": "Vancouver, BC V6K 2H3",
+      "street": "3102 West Broadway St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 26,
+      "name": "TIM HORTONS ARBUTUS ST",
+      "phone": "(604) 732-6913",
+      "postalCode": "Vancouver, BC V6J 3Z4",
+      "street": "3205 Arbutus St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 9:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "Intl Arrivals Level - Pre Security",
+      "id": 27,
+      "name": "TIM HORTONS GRANT MCCONNACHIE WAY",
+      "phone": "(604) 231-3730",
+      "postalCode": "Vancouver, BC V7B 1Y7",
+      "street": "3211 Grant Mcconnachie Way"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 28,
+      "name": "TIM HORTONS GRANDVIEW HIGHWAY",
+      "phone": "(604) 433-8822",
+      "postalCode": "Vancouver, BC V5M 2G4",
+      "street": "3312 Grandview Highway"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 29,
+      "name": "TIM HORTONS KINGSWAY",
+      "phone": "(604) 438-1897",
+      "postalCode": "Vancouver, BC V5R 5L3",
+      "street": "3451 Kingsway"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 30,
+      "name": "TIM HORTONS DUNBAR ST",
+      "phone": "(604) 222-3130",
+      "postalCode": "Vancouver, BC V6S 2C3",
+      "street": "3463 Dunbar St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 8:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 31,
+      "name": "TIM HORTONS EAST HASTINGS ST",
+      "phone": "(604) 299-4288",
+      "postalCode": "Vancouver, BC V5K 2A7",
+      "street": "3502 East Hastings St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 32,
+      "name": "TIM HORTONS 3880 GRANT MCCONACHIE WAY",
+      "phone": "(604) 303-3367",
+      "postalCode": "Vancouver, BC V2H 1H1",
+      "street": "3880 Grant Mcconachie Way"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 33,
+      "name": "TIM HORTONS FRASER ST",
+      "phone": "(604) 875-6495",
+      "postalCode": "Vancouver, BC V5V 4E7",
+      "street": "4064 Fraser St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 34,
+      "name": "TIM HORTONS WEST 10TH AVE",
+      "phone": "(604) 221-5011",
+      "postalCode": "Vancouver, BC V6R 2H8",
+      "street": "4401 West 10th Ave"
+    },
+    {
+      "closeTime": "Restaurant Open Until 5:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 35,
+      "name": "TIM HORTONS OAK ST",
+      "phone": "(604) 875-2638",
+      "postalCode": "Vancouver, BC V6H 3V4",
+      "street": "4500 Oak St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 10:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 36,
+      "name": "TIM HORTONS ROBSON ST",
+      "phone": "(604) 605-5490",
+      "postalCode": "Vancouver, BC V6B 6L9",
+      "street": "463 Robson St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 37,
+      "name": "TIM HORTONS INTERURBAN WAY",
+      "phone": "(604) 325-2889",
+      "postalCode": "Vancouver, BC V5X 0C5",
+      "street": "487 Interurban Way"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "Unit 101",
+      "id": 38,
+      "name": "TIM HORTONS HORNBY ST",
+      "phone": "(604) 974-0347",
+      "postalCode": "Vancouver, BC V6C 3J1",
+      "street": "490 Hornby St"
+    },
+    {
+      "closeTime": "Restaurant Open Until Midnight",
+      "driveThruCloseTime": "",
+      "floor": "Unit 150",
+      "id": 39,
+      "name": "TIM HORTONS JOYCE ST",
+      "phone": "(604) 433-3354",
+      "postalCode": "Vancouver, BC V5R 4G7",
+      "street": "5055 Joyce St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 10:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "Unit 6",
+      "id": 40,
+      "name": "TIM HORTONS HASTINGS ST WEST",
+      "phone": "(604) 642-0348",
+      "postalCode": "Vancouver, BC V6B 5K3",
+      "street": "555 Hastings St West"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 41,
+      "name": "TIM HORTONS GRANVILLE ST",
+      "phone": "(888) 601-1616",
+      "postalCode": "Vancouver, BC V6M 3C7",
+      "street": "5702 Granville St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 42,
+      "name": "TIM HORTONS FRASER ST",
+      "phone": "(778) 996-5896",
+      "postalCode": "Vancouver, BC V5W 2Z5",
+      "street": "5896 Fraser St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 10:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 43,
+      "name": "TIM HORTONS DUNSMUIR ST",
+      "phone": "(604) 609-0865",
+      "postalCode": "Vancouver, BC V6B 1Y7",
+      "street": "607 Dunsmuir St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 8:30 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 44,
+      "name": "TIM HORTONS GEORGIA ST W",
+      "phone": "(604) 632-4626",
+      "postalCode": "Vancouver, BC V6B 4N7",
+      "street": "650 Georgia St W"
+    },
+    {
+      "closeTime": "Restaurant Open Until 9:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 45,
+      "name": "TIM HORTONS WEST 41ST AVE",
+      "phone": "(604) 261-1302",
+      "postalCode": "Vancouver, BC V5Z 2M9",
+      "street": "650 West 41st Ave"
+    },
+    {
+      "closeTime": "Restaurant Open Until 10:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 46,
+      "name": "TIM HORTONS OAK ST",
+      "phone": "(604) 261-1062",
+      "postalCode": "Vancouver, BC V6P 3Z3",
+      "street": "6525 Oak St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 8:30 PM",
+      "driveThruCloseTime": "",
+      "floor": "Unit 10",
+      "id": 47,
+      "name": "TIM HORTONS DUNSMUIR",
+      "phone": "(604) 694-0865",
+      "postalCode": "Vancouver, BC V6B 1N3",
+      "street": "678 Dunsmuir"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 48,
+      "name": "TIM HORTONS SE MARINE DR",
+      "phone": "(604) 325-5833",
+      "postalCode": "Vancouver, BC V5X 2T4",
+      "street": "688 Se Marine Dr"
+    },
+    {
+      "closeTime": "Restaurant Open Until 9:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "Unit 104",
+      "id": 49,
+      "name": "TIM HORTONS WEST PENDER ST",
+      "phone": "(604) 632-0348",
+      "postalCode": "Vancouver, BC V6C 2T7",
+      "street": "750 West Pender St"
+    },
+    {
+      "closeTime": "Restaurant Open Until Midnight",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 50,
+      "name": "TIM HORTONS DAVIE ST",
+      "phone": "(604) 569-3301",
+      "postalCode": "Vancouver, BC V6G 1B6",
+      "street": "756 Davie St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 51,
+      "name": "TIM HORTONS 800 GRIFFITHS WAY",
+      "phone": "(888) 601-1616",
+      "postalCode": "Vancouver, BC V6B 6G1",
+      "street": "800 Griffiths Way"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 52,
+      "name": "TIM HORTONS WEST 6TH ST",
+      "phone": "(604) 897-5197",
+      "postalCode": "Vancouver, BC V5Z 1A6",
+      "street": "818 West 6th St"
+    },
+    {
+      "closeTime": "Restaurant Open Until 2:00 AM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 53,
+      "name": "TIM HORTONS WEST BROADWAY",
+      "phone": "(604) 872-0348",
+      "postalCode": "Vancouver, BC V5Z 1J9",
+      "street": "865 West Broadway"
+    },
+    {
+      "closeTime": "Restaurant Open Until 11:00 PM",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 54,
+      "name": "TIM HORTONS HORNBY ST",
+      "phone": "(604) 642-4272",
+      "postalCode": "Vancouver, BC V6Z 1V3",
+      "street": "947 Hornby St"
+    },
+    {
+      "closeTime": "Restaurant Open Until Midnight",
+      "driveThruCloseTime": "",
+      "floor": "",
+      "id": 55,
+      "name": "TIM HORTONS GRANVILLE ST",
+      "phone": "(604) 684-6858",
+      "postalCode": "Vancouver, BC V6Z 1L2",
+      "street": "998 Granville St"
+    }
+  ]
+}
