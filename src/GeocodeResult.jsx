@@ -7,7 +7,8 @@ export default class GeocodeResult extends Component {
 
   render(){
     return (
-      <ul className='geocode-result' style={{width: 500, textAligh: 'center', color: '#444'}}>
+      // <ul className='geocode-result' style={{width: 500, textAligh: 'center', color: '#444'}}>
+      <ul>
         <li>Address: {this.props.address}</li>
         {/* <li>latitude: {this.props.location.lat}</li>
         <li>longitude: {this.props.location.lng}</li> */}

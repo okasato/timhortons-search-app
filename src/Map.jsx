@@ -22,7 +22,7 @@ export default class Map extends Component{
     return(
       <InnerMap
         containerElement={(<div />)}
-        mapElement={(<div className='map' style={{marginLeft: 50, height: 400, width: 350}}/>)}
+        mapElement={(<div className='map' style={{ marginTop: 10, height: 400, width: 350}}/>)}
         location={this.props.location}
       />
     )

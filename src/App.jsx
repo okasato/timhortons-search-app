@@ -63,24 +63,19 @@ export default class App extends Component {
             Where is the nearest Tim Hortons?
           </Typography>
           <SearchForm onSubmit={place => this.handlePlaceSubmit(place)} />
-        </div>
-        {/* <Typography align='center' variant='subheading' color='default'>
-          Type an address (e.g. Street name etc).
-        </Typography> */}
-
-
-        <div className='result-area' style={{ display: 'flex' }}>
-          <Map location={this.state.location} />
-          <div style={{ marginLeft: 20 }}>
-            <GeocodeResult
-              address={this.state.address}
-              location={this.state.location}
-            />
-            <h2 style={{ marginLeft: 80 }}>Result of Searching Cafes</h2>
-            <TimhortonsTable cafes={this.state.shops} />
+          <div className='result-area' style={{ display: 'flex', justifyContent: 'center' }}>
+            <Map location={this.state.location} />
+            <div style={{ marginTop: 10, padding: 10 }}>
+              <AppBar position='static' color='default'>
+                <Typography align='center' variant='title' color='inherit'>
+                  Search Results
+                </Typography>
+              </AppBar>
+              <TimhortonsTable cafes={this.state.shops} />
+            </div>
           </div>
         </div>
-        </div>
+      </div>
     )
   }
 }

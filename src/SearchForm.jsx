@@ -25,7 +25,7 @@ export default class SearchForm extends Component {
 
   render() {
     return (
-      <form style={{ textAlign: 'center', marginBottom: 40 }} onSubmit={e => this.handleSubmit(e)}>
+      <form style={{ textAlign: 'center', marginBottom: 7 }} onSubmit={e => this.handleSubmit(e)}>
         {/* <input 
           type="text"
           value={this.state.place}
@@ -54,12 +54,6 @@ export default class SearchForm extends Component {
             )
           }}
         />
-        {/* <div className='button'>
-          <Button variant='contained' color='primary' size='small'>
-            search
-            <Icon>search</Icon>
-          </Button>
-        </div> */}
       </form>
     )
   };
