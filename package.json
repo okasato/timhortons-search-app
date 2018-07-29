@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hack": "webpack-dev-server --module-bind 'js=babel-loader' --module-bind 'jsx=babel-loader' --resolve-extensions .js,.jsx --mode development --entry ./src --output public/bundle.js --open",
-    "build": "webpack --module-bind 'js=babel-loader' --module-bind 'jsx=babel-loader' --resolve-extensions .js,.jsx --mode production --entry ./src --output public/bundle.js",
-    "watch": "webpack --module-bind 'js=babel-loader' --module-bind 'jsx=babel-loader' --resolve-extensions .js,.jsx --mode production --entry ./src --output public/bundle.js --watch",
+    "build": "webpack",
+    "hack": "webpack && webpack-dev-server --inline",
     "seed": "knex seed:run --knexfile ./server/db/knexfile.js",
     "migrate": "knex migrate:latest --knexfile ./server/db/knexfile.js",
     "rollback": "knex migrate:rollback --knexfile ./server/db/knexfile.js",

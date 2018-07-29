@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(-45deg, rgba(48, 67, 82, .5), rgba(215, 210, 204, .5)) fixed, url(mom-and-baby-yoga.jpg) fixed;
+  background: linear-gradient(-45deg, rgba(48, 67, 82, .5), rgba(215, 210, 204, .5)) fixed;
   background-size: cover;
   height: 100px;
   padding: 20px 0 20px 0;
@@ -14,7 +14,7 @@
 }
 
 .result-area {
-  background: linear-gradient(-45deg, rgba(240, 152, 25, .5), rgba(237, 222, 93, .5)) fixed, url(mom-and-baby-yoga.jpg) fixed;
+  background: linear-gradient(-45deg, rgba(240, 152, 25, .5), rgba(237, 222, 93, .5)) fixed;
   background-size: cover;
   height: 800px;
   /* padding: 20px 0 20px 0; */

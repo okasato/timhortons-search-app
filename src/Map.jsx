@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 
-const InnerMap = withGoogleMap(props =>
+const InnerMap = withGoogleMap(props => 
   <GoogleMap
-    defaultZoom={14}
-    defaultCenter={props.location}
-    center={props.location}
+    defaultZoom={12}
+    defaultCenter={{ lat: 49.2331455, lng: -123.1188404 }}
+    center={{ lat: 49.2331455, lng: -123.1188404 }}
   >
-    <Marker
-      position={props.location}
-    />
+    {props.locations.map((location, id) => (
+      <Marker
+        key={id} 
+        position={location}
+      />
+    ))}
   </GoogleMap>
 );
 
@@ -23,7 +26,7 @@ export default class Map extends Component{
       <InnerMap
         containerElement={(<div />)}
         mapElement={(<div className='map' style={{ marginTop: 10, height: 400, width: 350}}/>)}
-        location={this.props.location}
+        locations={this.props.locations}
       />
     )
   }

@@ -10,7 +10,7 @@ export default class SearchForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      place: 'Oakridge',
+      place: 'Oakridge 41st',
     };
   }
 
@@ -24,8 +24,9 @@ export default class SearchForm extends Component {
   }
 
   render() {
+    console.log(this.state.place);
     return (
-      <form style={{ textAlign: 'center', marginBottom: 7 }} onSubmit={e => this.handleSubmit(e)}>
+      <form style={{ textAlign: 'center', marginBottom: 7 }}>
         {/* <input 
           type="text"
           value={this.state.place}
@@ -38,6 +39,7 @@ export default class SearchForm extends Component {
           label='Type an address (e.g. Street name etc).'
           id="margin-normal"
           margin="normal"
+          onChange={e => this.handlePlaceChange(e.target.value)}
           InputProps={{
             startAdornment: (
               <InputAdornment position='start'>
@@ -46,7 +48,12 @@ export default class SearchForm extends Component {
             ),
             endAdornment: (
               <InputAdornment position='end'>
-                <Button variant='contained' color='secondary' size='small'>
+                <Button 
+                  variant='contained' 
+                  color='secondary' 
+                  size='small'
+                  onClick={e => this.handleSubmit(e)}
+                >
                   search
                   <Icon>search</Icon>
                 </Button>
