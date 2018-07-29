@@ -10,7 +10,6 @@ export default class SearchResults extends Component {
   }
 
   render() {
-    console.log(this.props.shops);
     return (
       <div>
         {this.props.shops.map((shop, id) => (

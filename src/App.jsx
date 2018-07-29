@@ -4,11 +4,8 @@ import Typography from '@material-ui/core/Typography';
 import SearchForm from './SearchForm';
 import GeocodeResult from './GeocodeResult';
 import { geocode } from '../utils/index';
-// import { getShopsInfo } from '../utils/getShopsInfo';
 import Map from './Map';
 import SearchResults from './SearchResults';
-
-const URL = JSON.stringify('http://localhost:1337');
 
 export default class App extends Component {
   constructor(props) {
@@ -18,16 +15,11 @@ export default class App extends Component {
         {
           lat: 49.2331455,
           lng: -123.1188404
-        },
-        {
-          lat: 49.2397382,
-          lng: -123.1335328
         }
       ],
       place: 'Oakridge 41st',
       shops: []
     };
-    // this.getShopsInfo = this.getShopsInfo.bind(this);
   }
 
   setErrorMessage(message) {
@@ -72,7 +64,13 @@ export default class App extends Component {
       })
       .then(shops => {
         console.log(shops);
-        this.setState({ shops });
+        const chosenLocations = [];
+        shops.forEach(shop => {
+          const address = `${shop.street} ${shop.postalCode}`;
+          geocode(address)
+          .then( address => chosenLocations.push(address.location));
+        });
+        this.setState({ shops, locations: chosenLocations });
       })
       .catch(err => {
         this.setErrorMessage('Communication error.');

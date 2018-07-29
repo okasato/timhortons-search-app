@@ -7,12 +7,13 @@ const InnerMap = withGoogleMap(props =>
     defaultCenter={{ lat: 49.2331455, lng: -123.1188404 }}
     center={{ lat: 49.2331455, lng: -123.1188404 }}
   >
-    {props.locations.map((location, id) => (
-      <Marker
-        key={id} 
+    {props.locations.map((location, id) => {
+      console.log(location, id);
+      return <Marker
+        key={id}
         position={location}
       />
-    ))}
+    })}
   </GoogleMap>
 );
 
