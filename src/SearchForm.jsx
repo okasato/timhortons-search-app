@@ -24,7 +24,6 @@ export default class SearchForm extends Component {
   }
 
   render() {
-    console.log(this.state.place);
     return (
       <form style={{ textAlign: 'center', marginBottom: 7 }}>
         {/* <input 

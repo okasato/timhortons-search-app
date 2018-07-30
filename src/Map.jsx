@@ -1,20 +1,30 @@
 import React, { Component } from 'react';
 import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
-
-const InnerMap = withGoogleMap(props => 
-  <GoogleMap
-    defaultZoom={12}
-    defaultCenter={{ lat: 49.2331455, lng: -123.1188404 }}
-    center={{ lat: 49.2331455, lng: -123.1188404 }}
-  >
-    {props.locations.map((location, id) => {
-      console.log(location, id);
-      return <Marker
-        key={id}
-        position={location}
-      />
-    })}
-  </GoogleMap>
+ 
+const InnerMap = withGoogleMap(props => {
+  console.log('heyheyhey', props.markers);
+  if (props.markers.length > 0) {
+    console.log('jjjjj');
+    return (
+      <GoogleMap
+        defaultZoom={12}
+        defaultCenter={{ lat: 49.2331455, lng: -123.1188404 }}
+        center={props.markers[0].position}
+      >
+        {props.markers.map(marker => {
+          console.log('hey', marker);
+          return <Marker
+            {...marker}
+          />
+        })}
+      </GoogleMap>
+    )
+  } else {
+    return (
+      <div>Loading markers...</div>
+    )
+  }
+  } 
 );
 
 export default class Map extends Component{
@@ -22,13 +32,19 @@ export default class Map extends Component{
     super(props);
   }
 
-  render(){
-    return(
-      <InnerMap
-        containerElement={(<div />)}
-        mapElement={(<div className='map' style={{ marginTop: 10, height: 400, width: 350}}/>)}
-        locations={this.props.locations}
-      />
-    )
+  render() {
+    if (this.props.locations.length <= 0) {
+      return (
+        <div>Loading locations...</div>
+      )
+    } else {
+      return (
+        <InnerMap
+          containerElement={(<div />)}
+          mapElement={(<div className='map' style={{ marginTop: 10, height: 400, width: 350}}/>)}
+          markers={this.props.locations}
+        />
+      )
+    }
   }
 }

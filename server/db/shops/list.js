@@ -1,10 +1,9 @@
 module.exports = knex => {
   return () => {
     return knex('shops')
-      .innerJoin('locations', 'shops.location_id', 'locations.id')
+      .innerJoin('geocode', 'shops.id', 'geocode.id')
       .select(
         'shops.id as id',
-        'locations.name as locationname',
         'shops.name as shopname',
         'shops.street as street',
         'shops.floor as floor',
@@ -12,6 +11,7 @@ module.exports = knex => {
         'shops.phone as phone',
         'shops.closeTime as closeTime',
         'shops.driveThruCloseTime as driveThruCloseTime',
+        'geocode.position as geocode'
       )
       .catch(err => console.log(err));
   }

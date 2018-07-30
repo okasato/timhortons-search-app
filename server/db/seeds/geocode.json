@@ -1,0 +1,626 @@
+[
+  {
+    "id": 0,
+    "address": "1 Hospital Way Victoria, BC V8Z 6R5",
+    "position": {
+      "lat": 48.4668086,
+      "lng": -123.4325761
+    }
+  },
+  {
+    "id": 1,
+    "address": "1099 Mckenzie Ave Victoria, BC V8P 2L5",
+    "position": {
+      "lat": 48.4693896,
+      "lng": -123.3612526
+    }
+  },
+  {
+    "id": 2,
+    "address": "1258 Esquimalt Rd Victoria, BC V9A 3P3",
+    "position": {
+      "lat": 48.4302628,
+      "lng": -123.41598
+    }
+  },
+  {
+    "id": 3,
+    "address": "1410 Blanshard St Victoria, BC V8W 2J2",
+    "position": {
+      "lat": 48.4271773,
+      "lng": -123.3621865
+    }
+  },
+  {
+    "id": 4,
+    "address": "1410 Blanshard St Victoria, BC V8W 2J2",
+    "position": {
+      "lat": 48.4271773,
+      "lng": -123.3621865
+    }
+  },
+  {
+    "id": 5,
+    "address": "1644 Hillside Ave Victoria, BC V8T 2C5",
+    "position": {
+      "lat": 48.4461325,
+      "lng": -123.3358263
+    }
+  },
+  {
+    "id": 6,
+    "address": "1700 Hillside Ave Victoria, BC V8P 1A1",
+    "position": {
+      "lat": 48.4462282,
+      "lng": -123.3325741
+    }
+  },
+  {
+    "id": 7,
+    "address": "1950 Foul Bay Rd Victoria, BC V8R 5A7",
+    "position": {
+      "lat": 48.4307721,
+      "lng": -123.3239465
+    }
+  },
+  {
+    "id": 8,
+    "address": "1952 Bay St Victoria, BC V8R 1J8",
+    "position": {
+      "lat": 48.4327191,
+      "lng": -123.3279138
+    }
+  },
+  {
+    "id": 9,
+    "address": "2680 Blanshard St Victoria, BC V8T 5E1",
+    "position": {
+      "lat": 48.4381184,
+      "lng": -123.3642401
+    }
+  },
+  {
+    "id": 10,
+    "address": "2950 Douglas St Victoria, BC V8T 4N4",
+    "position":  {
+      "lat": 48.4431379,
+      "lng": -123.3702045
+    }
+  },
+  {
+    "id": 11,
+    "address": "3147 Douglas St 280 Victoria, BC V8Z 6E3",
+    "position":  {
+      "lat": 48.4472636,
+      "lng": -123.3691277
+    }
+  },
+  {
+    "id": 12,
+    "address": "3253 Douglas St Victoria, BC V8Z 3K8",
+    "position": {
+      "lat": 48.4485916,
+      "lng": -123.3722283
+    }
+  },
+  {
+    "id": 13,
+    "address": "3501 Ravine Way Victoria, BC V8X 4Z1",
+    "position": {
+      "lat": 48.4574801,
+      "lng": -123.3759523
+    }
+  },
+  {
+    "id": 14,
+    "address": "3749 Shelbourne St Victoria, BC V8P 5N4",
+    "position": {
+      "lat": 48.4614877,
+      "lng": -123.3319583
+    }
+  },
+  {
+    "id": 15,
+    "address": "3775 Carey Rd Victoria, BC V8Z 3L8",
+    "position": {
+      "lat": 48.4580092,
+      "lng": -123.3788129
+    }
+  },
+  {
+    "id": 16,
+    "address": "3954 Shelbourne St Victoria, BC V8N 3E2",
+    "position": {
+      "lat": 48.4689825,
+      "lng": -123.3332491
+    }
+  },
+  {
+    "id": 17,
+    "address": "3990 Shelbourne St Victoria, BC V8N 3E2",
+    "position": {
+      "lat": 48.4720267,
+      "lng": -123.3330092
+    }
+  },
+  {
+    "id": 18,
+    "address": "4001 Quadra St Victoria, BC V5J 1A1",
+    "position": {
+      "lat": 48.4704953,
+      "lng": -123.3643704
+    }
+  },
+  {
+    "id": 19,
+    "address": "456a Gorge Rd East Victoria, BC V8T 2W4",
+    "position": {
+      "lat": 48.4411312,
+      "lng": -123.3735885
+    }
+  },
+  {
+    "id": 20,
+    "address": "880 Esquimalt Rd Victoria, BC V9A 3M5",
+    "position": {
+      "lat": 48.4310858,
+      "lng": -123.4000783
+    }
+  },
+  {
+    "id": 21,
+    "address": "955 Criagflower Rd Victoria, BC V9A 2X8",
+    "position": {
+      "lat": 48.4415189,
+      "lng": -123.4018169
+    }
+  },
+  {
+    "id": 22,
+    "address": "100 West 49th St Vancouver, BC V5Y 2Z6",
+    "position": {
+      "lat": 49.2245437,
+      "lng": -123.1087889
+    }
+  },
+  {
+    "id": 23,
+    "address": "1001 Denman St Vancouver, BC V6G 2M4",
+    "position": {
+      "lat": 49.2893743,
+      "lng": -123.1388762
+    }
+  },
+  {
+    "id": 24,
+    "address": "1055 Georgia St W Vancouver, BC V6E 3P3",
+    "position": {
+      "lat": 49.2853911,
+      "lng": -123.1215501
+    }
+  },
+  {
+    "id": 25,
+    "address": "1055 West Georgia St Vancouver, BC V6E 3P1",
+    "position": {
+      "lat": 49.2853911,
+      "lng": -123.1215501
+    }
+  },
+  {
+    "id": 26,
+    "address": "107-505 Burrard St Vancouver, BC V6C 3A8",
+    "position": {
+      "lat": 49.28656669999999,
+      "lng": -123.1184202
+    }
+  },
+  {
+    "id": 27,
+    "address": "108 West Pender Vancouver, BC V6B 0K4",
+    "position": {
+      "lat": 49.2807799,
+      "lng": -123.1079494
+    }
+  },
+  {
+    "id": 28,
+    "address": "1130 West Pender St Vancouver, BC V6E 4A4",
+    "position": {
+      "lat": 49.2874843,
+      "lng": -123.1216047
+    }
+  },
+  {
+    "id": 29,
+    "address": "1150 Alberni St Vancouver, BC V6E 4R6",
+    "position": {
+      "lat": 49.2857595,
+      "lng": -123.1250009
+    }
+  },
+  {
+    "id": 30,
+    "address": "1205 Burrard St Vancouver, BC V6Z 1Z5",
+    "position": {
+      "lat": 49.279095,
+      "lng": -123.1298079
+    }
+  },
+  {
+    "id": 31,
+    "address": "1299 Robson St Vancouver, BC V6E 1C2",
+    "position": {
+      "lat": 49.2870226,
+      "lng": -123.1283048
+    }
+  },
+  {
+    "id": 32,
+    "address": "1398 West Broadway Vancouver, BC V6H 1H2",
+    "position": {
+      "lat": 49.263182,
+      "lng": -123.1356736
+    }
+  },
+  {
+    "id": 33,
+    "address": "1595 West Broadway Vancouver, BC V6J 1W6",
+    "position": {
+      "lat": 49.2638715,
+      "lng": -123.1404594
+    }
+  },
+  {
+    "id": 34,
+    "address": "1635 Commercial Dr Vancouver, BC V5L 3Y3",
+    "position": {
+      "lat": 49.2700694,
+      "lng": -123.0698722
+    }
+  },
+  {
+    "id": 35,
+    "address": "1752 Davie St Vancouver, BC V6G 1W2",
+    "position": {
+      "lat": 49.2865973,
+      "lng": -123.1410889
+    }
+  },
+  {
+    "id": 36,
+    "address": "1790 West 4th Ave W Vancouver, BC V6J 1M1",
+    "position": {
+      "lat": 49.267827,
+      "lng": -123.1451336
+    }
+  },
+  {
+    "id": 37,
+    "address": "195 Terminal Ave Vancouver, BC V6A 4C4",
+    "position": {
+      "lat": 49.273166,
+      "lng": -123.1005314
+    }
+  },
+  {
+    "id": 38,
+    "address": "200 Burrard St Vancouver, BC V6C 3L6",
+    "position": {
+      "lat": 49.2876463,
+      "lng": -123.1151091
+    }
+  },
+  {
+    "id": 39,
+    "address": "2001 Kingsway Vancouver, BC V5N 2T2",
+    "position": {
+      "lat": 49.2455325,
+      "lng": -123.0647908
+    }
+  },
+  {
+    "id": 40,
+    "address": "2033 Main Mall-ubc Foodsrvc-trek Exp Vancouver, BC V6T 1Z2",
+    "position": {
+      "lat": 49.265665,
+      "lng": -123.2542726
+    }
+  },
+  {
+    "id": 41,
+    "address": "206 Keefer St Vancouver, BC V6A 1X6",
+    "position": {
+      "lat": 49.2793371,
+      "lng": -123.0992115
+    }
+  },
+  {
+    "id": 42,
+    "address": "2225 41st Ave W Vancouver, BC V6M 2A3",
+    "position": {
+      "lat": 49.2347554,
+      "lng": -123.158236
+    }
+  },
+  {
+    "id": 43,
+    "address": "2424 Main Hall Vancouver, BC V6T 1Z2",
+    "position":  {
+      "lat": 49.2605024,
+      "lng": -123.2476207
+    }
+  },
+  {
+    "id": 44,
+    "address": "2501 Main St Vancouver, BC V5T 3E5",
+    "position": {
+      "lat": 49.2627694,
+      "lng": -123.1013986
+    }
+  },
+  {
+    "id": 45,
+    "address": "2899 East 12th Ave Vancouver, BC V5M 4T5",
+    "position": {
+      "lat": 49.2593589,
+      "lng": -123.0444638
+    }
+  },
+  {
+    "id": 46,
+    "address": "306 Terminal Ave Vancouver, BC V6A 3W9",
+    "position": {
+      "lat": 49.2721092,
+      "lng": -123.0977068
+    }
+  },
+  {
+    "id": 47,
+    "address": "3102 West Broadway St Vancouver, BC V6K 2H3",
+    "position": {
+      "lat": 49.2639532,
+      "lng": -123.1741984
+    }
+  },
+  {
+    "id": 48,
+    "address": "3205 Arbutus St Vancouver, BC V6J 3Z4",
+    "position":  {
+      "lat": 49.2570201,
+      "lng": -123.1532833
+    }
+  },
+  {
+    "id": 49,
+    "address": "3211 Grant Mcconnachie Way Vancouver, BC V7B 1Y7",
+    "position": {
+      "lat": 49.19320339999999,
+      "lng": -123.1722103
+    }
+  },
+  {
+    "id": 50,
+    "address": "3312 Grandview Highway Vancouver, BC V5M 2G4",
+    "position": {
+      "lat": 49.2579101,
+      "lng": -123.0330686
+    }
+  },
+  {
+    "id": 51,
+    "address": "3451 Kingsway Vancouver, BC V5R 5L3",
+    "position": {
+      "lat": 49.232254,
+      "lng": -123.0311502
+    }
+  },
+  {
+    "id": 52,
+    "address": "3463 Dunbar St Vancouver, BC V6S 2C3",
+    "position": {
+      "lat": 49.2560637,
+      "lng": -123.1855916
+    }
+  },
+  {
+    "id": 53,
+    "address": "3502 East Hastings St Vancouver, BC V5K 2A7",
+    "position": {
+      "lat": 49.2807834,
+      "lng": -123.0278424
+    }
+  },
+  {
+    "id": 54,
+    "address": "3880 Grant Mcconachie Way Vancouver, BC V2H 1H1",
+    "position": {
+      "lat": 49.1934531,
+      "lng": -123.1811236
+    }
+  },
+  {
+    "id": 55,
+    "address": "4064 Fraser St Vancouver, BC V5V 4E7",
+    "position": {
+      "lat": 49.2489011,
+      "lng": -123.0896242
+    }
+  },
+  {
+    "id": 56,
+    "address": "4401 West 10th Ave Vancouver, BC V6R 2H8",
+    "position": {
+      "lat": 49.2639429,
+      "lng": -123.2063164
+    }
+  },
+  {
+    "id": 57,
+    "address": "4500 Oak St Vancouver, BC V6H 3V4",
+    "position": {
+      "lat": 49.244533,
+      "lng": -123.1276162
+    }
+  },
+  {
+    "id": 58,
+    "address": "463 Robson St Vancouver, BC V6B 6L9",
+    "position": {
+      "lat": 49.2799468,
+      "lng": -123.1173288
+    }
+  },
+  {
+    "id": 59,
+    "address": "487 Interurban Way Vancouver, BC V5X 0C5",
+    "position": {
+      "lat": 49.210041,
+      "lng": -123.1156519
+    }
+  },
+  {
+    "id": 60,
+    "address": "490 Hornby St Vancouver, BC V6C 3J1",
+    "position": {
+      "lat": 49.2861102,
+      "lng": -123.1163068
+    }
+  },
+  {
+    "id": 61,
+    "address": "5055 Joyce St Vancouver, BC V5R 4G7",
+    "position": {
+      "lat": 49.2388431,
+      "lng": -123.0317455
+    }
+  },
+  {
+    "id": 62,
+    "address": "555 Hastings St West Vancouver, BC V6B 5K3",
+    "position": {
+      "lat": 49.2846966,
+      "lng": -123.1119349
+    }
+  },
+  {
+    "id": 63,
+    "address": "5702 Granville St Vancouver, BC V6M 3C7",
+    "position": {
+      "lat": 49.2339449,
+      "lng": -123.1392134
+    }
+  },
+  {
+    "id": 64,
+    "address": "5896 Fraser St Vancouver, BC V5W 2Z5",
+    "position": {
+      "lat": 49.23112450000001,
+      "lng": -123.0903848
+    }
+  },
+  {
+    "id": 65,
+    "address": "607 Dunsmuir St Vancouver, BC V6B 1Y7",
+    "position": {
+      "lat": 49.2834561,
+      "lng": -123.1152442
+    }
+  },
+  {
+    "id": 66,
+    "address": "650 Georgia St W Vancouver, BC V6B 4N7",
+    "position": {
+      "lat": 49.2818997,
+      "lng": -123.1180036
+    }
+  },
+  {
+    "id": 67,
+    "address": "650 West 41st Ave Vancouver, BC V5Z 2M9",
+    "position": {
+      "lat": 49.2319166,
+      "lng": -123.1179691
+    }
+  },
+  {
+    "id": 68,
+    "address": "6525 Oak St Vancouver, BC V6P 3Z3",
+    "position": {
+      "lat": 49.2262606,
+      "lng": -123.1289623
+    }
+  },
+  {
+    "id": 69,
+    "address": "678 Dunsmuir Vancouver, BC V6B 1N3",
+    "position": {
+      "lat": 49.28314959999999,
+      "lng": -123.116548
+    }
+  },
+  {
+    "id": 70,
+    "address": "688 Se Marine Dr Vancouver, BC V5X 2T4",
+    "position": {
+      "lat": 49.2106502,
+      "lng": -123.0916768
+    }
+  },
+  {
+    "id": 71,
+    "address": "750 West Pender St Vancouver, BC V6C 2T7",
+    "position": {
+      "lat": 49.2849225,
+      "lng": -123.1157032
+    }
+  },
+  {
+    "id": 72,
+    "address": "756 Davie St Vancouver, BC V6G 1B6",
+    "position": {
+      "lat": 49.277594,
+      "lng": -123.1272102
+    }
+  },
+  {
+    "id": 73,
+    "address": "800 Griffiths Way Vancouver, BC V6B 6G1",
+    "position": {
+      "lat": 49.2777744,
+      "lng": -123.1085205
+    }
+  },
+  {
+    "id": 74,
+    "address": "818 West 6th St Vancouver, BC V5Z 1A6",
+    "position": {
+      "lat": 49.2658067,
+      "lng": -123.1223947
+    }
+  },
+  {
+    "id": 75,
+    "address": "865 West Broadway Vancouver, BC V5Z 1J9",
+    "position": {
+      "lat": 49.2635355,
+      "lng": -123.1233966
+    }
+  },
+  {
+    "id": 76,
+    "address": "947 Hornby St Vancouver, BC V6Z 1V3",
+    "position": {
+      "lat": 49.2811313,
+      "lng": -123.1242991
+    }
+  },
+  {
+    "id": 77,
+    "address": "998 Granville St Vancouver, BC V6Z 1L2",
+    "position": {
+      "lat": 49.2792582,
+      "lng": -123.1227269
+    }
+  }
+]

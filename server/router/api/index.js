@@ -19,5 +19,12 @@ module.exports = (db) => {
       });
   });
 
+  router.get('/geocode', (req, res) => {
+    return db.geocode.list()
+      .then(geocode => {
+        send(res, OK, geocode, false);
+      });
+  });
+
   return router;
 };

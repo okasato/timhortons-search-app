@@ -17,7 +17,7 @@ export default class Result extends Component {
               {this.props.shop.shopname}
             </Typography>
             <Typography variant='subheading' color='inherit'>
-              <div>Address: {this.props.shop.street} {this.props.shop.floor} {this.props.shop.postalCode}</div>
+              <div>Address: {this.props.shop.postalCode} {this.props.shop.floor}</div>
             </Typography>
             <Typography variant='subheading' color='inherit'>
               Phone: {this.props.shop.phone}

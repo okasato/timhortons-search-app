@@ -11,71 +11,92 @@ export default class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      locations: [
-        {
-          lat: 49.2331455,
-          lng: -123.1188404
-        }
+      locations: [ 
+        { position: { lat: 49.2331455, lng: -123.1188404 } }
       ],
       place: 'Oakridge 41st',
-      shops: []
+      shops: [],
+      // address: '',
     };
   }
 
-  setErrorMessage(message) {
-    this.setState({
-      address: message,
-      location: {
-        lat: 0,
-        lng: 0
-      }
-    })
-  }
+  // setErrorMessage(message) {
+  //   this.setState({
+  //     address: message,
+  //     location: [{ position: {
+  //       lat: 0, lng: 0
+  //     }}]
+  //   })
+  // }
 
-  getShopsInfo(place) {
+  getShopsInfo() {
     return fetch(`/api/shops`)
-      .then(res => res.json());
+      .then(res => {
+        return res.json();
+      })
   }
 
+  // setSelectedLocations(locations) {
+  //   this.setState({ locations });
+  // }
   handlePlaceSubmit(place) {
-    geocode(place)
-      .then(({ status, address, location }) => {
-        console.log({ status, address, location });
-        if (status === 'OK') {
-          return this.getShopsInfo(place);
-        } else if (status === 'ZERO_RESULTS') {
-          this.setErrorMessage('No result.');
-        } else {
-          this.setErrorMessage('An error happens.');
-        }
-      })
+    this.getShopsInfo()
       .then(shopsInfo => {
         return shopsInfo.filter(shopInfo => {
-          const splitInfo = shopInfo.street.split(' ');
-          let streetName = splitInfo[1];
-          splitInfo.forEach((element, id) => {
-            if (id > 1) {
-              streetName = streetName + ' ' + element;
-            }
-          });
-
-          return streetName === place;
+          return shopInfo.street === place;
         })
       })
       .then(shops => {
-        console.log(shops);
-        const chosenLocations = [];
-        shops.forEach(shop => {
-          const address = `${shop.street} ${shop.postalCode}`;
-          geocode(address)
-          .then( address => chosenLocations.push(address.location));
+        const locations = shops.map(shop => {
+          return { position: JSON.parse(shop.geocode) };
         });
-        this.setState({ shops, locations: chosenLocations });
+        this.setState({ locations, shops });
       })
       .catch(err => {
         this.setErrorMessage('Communication error.');
       })
   }
+
+  // handlePlaceSubmit(place) {
+  //   geocode(place)
+  //     .then(({ status, address, location }) => {
+  //       if (status === 'OK') {
+  //         return this.getShopsInfo();
+  //       } else if (status === 'ZERO_RESULTS') {
+  //         this.setErrorMessage('No result.');
+  //       } else {
+  //         this.setErrorMessage('An error happens.');
+  //       }
+  //     })
+  //     .then(shopsInfo => {
+  //       return shopsInfo.filter(shopInfo => {
+  //         const splitInfo = shopInfo.street.split(' ');
+  //         let streetName = splitInfo[1];
+  //         splitInfo.forEach((element, id) => {
+  //           if (id > 1) {
+  //             streetName = streetName + ' ' + element;
+  //           }
+  //         });
+
+  //         return streetName === place;
+  //       })
+  //     })
+  //     .then(shops => {
+  //       const selectedLocations = [];
+  //       shops.forEach(shop => {
+  //         const address = `${shop.street} ${shop.postalCode}`;
+  //         geocode(address)
+  //           .then(address => selectedLocations.push({ position: address.location }));
+  //       });
+  //       return { shops, selectedLocations };
+  //     })
+  //     .then(({ shops, selectedLocations }) => {
+  //       this.setState({ shops, locations: selectedLocations });
+  //     })
+  //     .catch(err => {
+  //       this.setErrorMessage('Communication error.');
+  //     })
+  // }
 
   render() {
     return (
@@ -93,7 +114,11 @@ export default class App extends Component {
             onSubmit={place => this.handlePlaceSubmit(place)}
           />
           <div className='result-area' style={{ display: 'flex', justifyContent: 'center' }}>
-            <Map locations={this.state.locations} />
+            <Map 
+              locations={this.state.locations}
+              shops={this.state.shops}
+              // setSelectedLocations={locations => this.setSelectedLocations(locations)} 
+            />
             <div style={{ marginTop: 10, padding: 10 }}>
               <AppBar position='static' color='default'>
                 <Typography align='center' variant='title' color='inherit'>

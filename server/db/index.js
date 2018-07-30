@@ -12,5 +12,6 @@ const knex = Knex({
 
 module.exports = {
   shops: require('./shops')(knex),
-  locations: require('./locations')(knex)
+  locations: require('./locations')(knex),
+  geocode: require('./geocode')(knex)
 };
