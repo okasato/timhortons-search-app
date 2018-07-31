@@ -5,7 +5,7 @@ module.exports = {
   output: {
     path: `${__dirname}/public`,
     filename: 'bundle.js',
-    publicPath: '/'
+    // publicPath: '/'
   },
   devServer: {
     contentBase: 'public',
@@ -13,7 +13,7 @@ module.exports = {
     proxy: {
       '/api': 'http://localhost:1337'
     },
-    historyApiFallback: true
+    // historyApiFallback: true
   },
   module: {
     rules: [
