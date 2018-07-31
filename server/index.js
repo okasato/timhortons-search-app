@@ -3,6 +3,7 @@ const apiRouter = require('./router/api')(db);
 const morgan = require('morgan'); 
 const bodyParser = require('body-parser'); 
 const express = require('express');
+const PORT = process.env.PORT || 1337;
 const app = express();
 
 app.use("*",(req, res, next) => {
@@ -20,10 +21,8 @@ app.use('/api/', [
   apiRouter
 ]);
 
-app.set('port', (process.env.PORT || 1337));
-
-const server = app.listen(1337, () => {
-  console.log('Server up and listening on port 1337');
+const server = app.listen(PORT, () => {
+  console.log(`Server up and listening on port ${PORT}`);
 });
 
 module.exports = app;
