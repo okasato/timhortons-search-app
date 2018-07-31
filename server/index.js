@@ -23,6 +23,10 @@ app.use('/api/', [
   apiRouter
 ]);
 
+app.get('/', function(req, res, next) {
+  res.sendFile(__dirname + '../public/index.html');
+});
+
 const server = app.listen(PORT, () => {
   console.log(`Server up and listening on port ${PORT}`);
 });
