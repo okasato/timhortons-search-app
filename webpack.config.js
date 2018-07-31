@@ -5,9 +5,9 @@ module.exports = {
   entry: './src/index.jsx',
   output: {
     // path: `${__dirname}/public`,
-    path: path.resolve(__dirname, 'public'),
+    path: path.join(__dirname, '/public'),
     filename: 'bundle.js',
-    publicPath: '/public/'
+    publicPath: 'https://timhosearch.herokuapp.com/'
   },
   devServer: {
     contentBase: 'public',
