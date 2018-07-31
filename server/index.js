@@ -11,7 +11,7 @@ app.use("*",(req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS,PATCH');
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, authorization");
-  res.set("Content-Type", "application/javascript");
+  // res.set("Content-Type", "application/javascript");
   next();
 });
 
