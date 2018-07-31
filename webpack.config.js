@@ -11,7 +11,8 @@ module.exports = {
     port: 8080,
     proxy: {
       '/api': 'http://localhost:1337'
-    }
+    },
+    historyApiFallback: true
   },
   module: {
     rules: [
