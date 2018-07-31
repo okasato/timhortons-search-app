@@ -7,7 +7,7 @@ module.exports = {
     // path: `${__dirname}/public`,
     path: path.join(__dirname, '/public'),
     filename: 'bundle.js',
-    publicPath: 'https://timhosearch.herokuapp.com/public/'
+    // publicPath: 'https://timhosearch.herokuapp.com/public/'
   },
   devServer: {
     contentBase: 'public',
