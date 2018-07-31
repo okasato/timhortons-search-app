@@ -20,6 +20,8 @@ app.use('/api/', [
   apiRouter
 ]);
 
+app.set('port', (process.env.PORT || 1337));
+
 const server = app.listen(1337, () => {
   console.log('Server up and listening on port 1337');
 });
