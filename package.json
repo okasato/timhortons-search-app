@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack",
     "hack": "webpack && webpack-dev-server --inline",
+    "postinstall": "webpack",
     "start": "node ./server/index.js",
     "migrate": "knex migrate:latest --knexfile ./server/db/knexfile.js",
     "rollback": "knex migrate:rollback --knexfile ./server/db/knexfile.js",

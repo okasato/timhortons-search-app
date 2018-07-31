@@ -4,10 +4,8 @@ const path = require('path');
 module.exports = {
   entry: './src/index.jsx',
   output: {
-    // path: `${__dirname}/public`,
     path: path.join(__dirname, '/public'),
     filename: 'bundle.js',
-    // publicPath: 'https://timhosearch.herokuapp.com/public/'
   },
   devServer: {
     contentBase: 'public',
@@ -15,7 +13,6 @@ module.exports = {
     proxy: {
       '/api': 'http://localhost:1337'
     },
-    // historyApiFallback: true
   },
   module: {
     rules: [
@@ -29,9 +26,4 @@ module.exports = {
   resolve: {
     extensions: ['.webpack.js', ' ', '.js', '.jsx']
   },
-  // plugins: [
-  //     new webpack.DefinePlugin({
-  //         'process.env.BASE_URL': JSON.stringify('http://localhost:1337')
-  //       })
-  // ]
 };
