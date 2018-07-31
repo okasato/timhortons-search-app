@@ -7,10 +7,10 @@
     "build": "webpack",
     "hack": "webpack && webpack-dev-server --inline",
     "postinstall": "webpack && npm run migrate && npm run seed",
-    "seed": "knex seed:run --knexfile ./server/db/knexfile.js",
+    "start": "node ./server/index.js",
     "migrate": "knex migrate:latest --knexfile ./server/db/knexfile.js",
     "rollback": "knex migrate:rollback --knexfile ./server/db/knexfile.js",
-    "start": "node ./server/index.js"
+    "seed": "knex seed:run --knexfile ./server/db/knexfile.js"
   },
   "repository": {
     "type": "git",
