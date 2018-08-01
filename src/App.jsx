@@ -57,13 +57,15 @@ export default class App extends Component {
     this.getShopsInfo()
       .then(shopsInfo => {
         if (formattedPlace === 'mylocation') {
-          return findShopsAroundHere(shopsInfo.geocode)
-            ,then(distance => {
-              console.log('distance', distance);
-              if (distance < 1000) {
-                return shopInfo;  
-              }
-            })
+          return shopsInfo.filter(shopInfo => {
+            return findShopsAroundHere(shopInfo.geocode)
+              ,then(distance => {
+                console.log('distance', distance);
+                if (distance < 1000) {
+                  return shopInfo;  
+                }
+              });
+          })
         } else if (formattedPlace === 'vancouver') {
           return shopsInfo.filter(shopInfo => {
             return shopInfo.id >= 22;
