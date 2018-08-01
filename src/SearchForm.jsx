@@ -36,6 +36,7 @@ export default class SearchForm extends Component {
         <TextField
           className='search'
           label='Type an address (e.g. Street name etc).'
+          defaultValue='My Location'
           id="margin-normal"
           margin="normal"
           onChange={e => this.handlePlaceChange(e.target.value)}

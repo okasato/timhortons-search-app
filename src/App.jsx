@@ -3,7 +3,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Typography from '@material-ui/core/Typography';
 import SearchForm from './SearchForm';
 import GeocodeResult from './GeocodeResult';
-import { geocode } from '../utils/index';
+import { geocode, findShopsAroundHere } from '../utils';
 import Map from './Map';
 import SearchResults from './SearchResults';
 
@@ -16,18 +16,18 @@ export default class App extends Component {
       ],
       place: 'Oakridge 41st',
       shops: [],
-      // address: '',
+      address: '',
     };
   }
 
-  // setErrorMessage(message) {
-  //   this.setState({
-  //     address: message,
-  //     location: [{ position: {
-  //       lat: 0, lng: 0
-  //     }}]
-  //   })
-  // }
+  setErrorMessage(message) {
+    this.setState({
+      address: message,
+      location: [
+        { position: {　lat: 0, lng: 0　}　}
+      ]
+    })
+  }
 
   getShopsInfo() {
     return fetch(`/api/shops`)
@@ -36,17 +36,51 @@ export default class App extends Component {
       })
   }
 
-  // setSelectedLocations(locations) {
-  //   this.setState({ locations });
-  // }
   handlePlaceSubmit(place) {
+    const formattedPlace = place.toLowerCase().split(' ').map(word => {
+      if (word === 'street') {
+        word = 'st';
+      } else if (word === 'avenue') {
+        word = 'ave';
+      } else if (word === 'drive') {
+        word = 'dr';
+      } else if (word === 'road') {
+        word = 'rd';
+      } else if (word === 'w') {
+        word = 'west';
+      } else if (word === 'e') {
+        word = 'east';
+      }
+      return word;
+    }).join('');
+    console.log('formattedPlace', formattedPlace);
     this.getShopsInfo()
       .then(shopsInfo => {
-        return shopsInfo.filter(shopInfo => {
-          return shopInfo.street === place;
-        })
+        if (formattedPlace === 'mylocation') {
+          console.log('mylocation');
+          return findShopsAroundHere(shopsInfo.geocode)
+            ,then(distance => {
+              console.log('distance', distance);
+              if (distance < 1000) {
+                return shopInfo;  
+              }
+            })
+        } else if (formattedPlace === 'vancouver') {
+          return shopsInfo.filter(shopInfo => {
+            return shopInfo.id >= 22;
+          });
+        } else if (formattedPlace === 'victoria') {
+          return shopsInfo.filter(shopInfo => {
+            return shopInfo.id <= 21;
+          });
+        } else {
+          return shopsInfo.filter(shopInfo => {
+            return shopInfo.street.toLowerCase().split(' ').join('') === formattedPlace;
+          });
+        }
       })
       .then(shops => {
+        console.log(shops);
         const locations = shops.map(shop => {
           return { position: JSON.parse(shop.geocode) };
         });
