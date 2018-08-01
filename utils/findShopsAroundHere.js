@@ -1,6 +1,7 @@
 const geolib = require('geolib');
 
 export const findShopsAroundHere = (geocode) => {
+	console.log('hello findshoparoundhere');
   return asyncGetMyLocation()
     .then(myPosition => {
 			console.log('my position', myPosition);

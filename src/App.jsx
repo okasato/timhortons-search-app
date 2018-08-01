@@ -53,11 +53,10 @@ export default class App extends Component {
       }
       return word;
     }).join('');
-    console.log('formattedPlace', formattedPlace);
+
     this.getShopsInfo()
       .then(shopsInfo => {
         if (formattedPlace === 'mylocation') {
-          console.log('mylocation');
           return findShopsAroundHere(shopsInfo.geocode)
             ,then(distance => {
               console.log('distance', distance);
