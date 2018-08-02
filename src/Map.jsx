@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
  
 const InnerMap = withGoogleMap(props => {
-  console.log('heyheyhey', props.markers);
   if (props.markers.length > 0) {
-    console.log('jjjjj');
     return (
       <GoogleMap
         defaultZoom={12}
@@ -12,7 +10,6 @@ const InnerMap = withGoogleMap(props => {
         center={props.markers[0].position}
       >
         {props.markers.map(marker => {
-          console.log('hey', marker);
           return <Marker
             {...marker}
           />

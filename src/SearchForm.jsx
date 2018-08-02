@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import Icon from "@material-ui/core/Icon";
-import IconButton from "@material-ui/core/IconButton";
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import InputAdornment from '@material-ui/core/InputAdornment';
-// import InputLabel from '@material-ui/core/InputLabel';
 
 export default class SearchForm extends Component {
   constructor(props) {
@@ -23,20 +21,20 @@ export default class SearchForm extends Component {
     this.props.onSubmit(this.state.place);
   }
 
+  handlePressEnter(e) {
+    e.preventDefault();
+    console.log('keyCode', e.keyCode);
+    if(e.keyCode === 13) { //13 is the enter keycode
+      this.props.onSubmit(this.state.place);
+    }
+  }
+
   render() {
     return (
       <form style={{ textAlign: 'center', marginBottom: 7 }}>
-        {/* <input 
-          type="text"
-          value={this.state.place}
-          style={{fontSize: 24, padding: 3}}
-          onChange={e => this.handlePlaceChange(e.target.value)}
-        /> */}
-        {/* <input type="submit" value='Search' style={{WebkitAppearance: 'none', padding: 4, fontSize: 24, borderRadius: 3}}/> */}
         <TextField
           className='search'
-          label='Type an address (e.g. Street name etc).'
-          defaultValue='My Location'
+          label='Type an address (e.g. My location, Main St, W 41st Ave, Vancouver etc). Word space is necessary.'
           id="margin-normal"
           margin="normal"
           onChange={e => this.handlePlaceChange(e.target.value)}
@@ -53,6 +51,7 @@ export default class SearchForm extends Component {
                   color='secondary' 
                   size='small'
                   onClick={e => this.handleSubmit(e)}
+                  onKeyDown={e => this.handlePressEnter(e)}
                 >
                   search
                   <Icon>search</Icon>
