@@ -23,7 +23,6 @@ export default class SearchForm extends Component {
 
   handlePressEnter(e) {
     e.preventDefault();
-    console.log('keyCode', e.keyCode);
     if(e.keyCode === 13) { //13 is the enter keycode
       this.props.onSubmit(this.state.place);
     }
