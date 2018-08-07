@@ -55,7 +55,7 @@ $ npm run hack
 
 ### 4. Starting Server-Side Application
 
-Run the folloing command to start the client-side application.
+Run the folloing command to start the server-side application.
 
 ```
 $ npm run start
