@@ -2,9 +2,11 @@
 
  App for finding Tim Hortons based on street names or where we are now (our current location) in Vancouver and Vicoria. 
 
- * Use a street name, you can get a list of shops with markers in Google map.
+ * Put a street name, you can get a list of shops with markers in Google map.
 
- * Use your current location, you can get a list of shops with markers in Google map within a 1 km radius of your current location.
+ * Put your current location, you can get a list of shops with markers in Google map within a 1 km radius of your current location.
+
+ * Put "Vancouver" or "Vaictoria" if you want to know all the shops in the area. 
 
  ![Screen shot](readme.png)
 

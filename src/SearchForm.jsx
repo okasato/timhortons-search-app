@@ -33,7 +33,7 @@ export default class SearchForm extends Component {
       <form style={{ textAlign: 'center', marginBottom: 7 }}>
         <TextField
           className='search'
-          label='Type an address (e.g. My location, Main St, W 41st Ave, Vancouver etc). Word space is necessary.'
+          label='Type a street name (e.g. Main St, W 41st Ave etc.) or your current location (i.e. My Location). Word space is necessary.'
           id="margin-normal"
           margin="normal"
           onChange={e => this.handlePlaceChange(e.target.value)}
